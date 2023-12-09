@@ -9,7 +9,9 @@ export default function Header() {
                     </a>
                     <nav className="top-nav-area w-100">
                         <div className="user-panel">
-                            <a href="">Login</a> / <a href="">Register</a>
+                            <a href="/login">Login </a>
+                            <a href="/register">Register </a>
+
                         </div>
                         {/* <!-- Menu --> */}
                         <ul className="main-menu primary-menu">

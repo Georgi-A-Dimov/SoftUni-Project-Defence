@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function InfoSection() {
   return (
-    <Carousel data-bs-theme="dark">
+    <Carousel fade>
       <Carousel.Item>
         <img
           className="d-block w-100"
