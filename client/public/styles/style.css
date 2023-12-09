@@ -458,89 +458,21 @@ ol {
 }
 
 /*------------------
-  Hero section
+  Info section
 ---------------------*/
 
-.hero-slider .owl-dots {
-	display: -ms-flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	z-index: 2;
-	left: calc(50% - 740px);
-	bottom: 38px;
-	position: relative;
-	width: 1496px;
-	position: absolute;
-}
-
-.hero-slider .owl-dots .owl-dot {
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	font-size: 16px;
-	font-weight: 500;
-	border: 2px solid transparent;
-	color: #fff;
-	display: -ms-inline-flex;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.hero-slider .owl-dots .owl-dot.active {
-	color: #b01ba5;
-	border: 2px solid #b01ba5;
-}
-
-.hero-slider .owl-nav {
-	margin-top: -24px;
-	display: block;
-}
-
-.hero-slider .owl-nav .owl-next {
-	position: absolute;
-	top: 50%;
-	right: 100px;
-}
 
 .hero-item {
-	height: 921px;
+	height: 650px;
 	padding-top: 125px;
 	border-bottom: 2px solid #b01ba5;
 }
 
-.hero-item h2 {
-	font-size: 160px;
-	color: #fff;
-	font-weight: 500;
-	line-height: 1;
-	position: relative;
-	top: 100px;
-	opacity: 0;
-}
-
 .hero-item p {
-	font-size: 24px;
+	font-size: 40px;
 	color: rgba(255, 255, 255, 0.4);
 	font-weight: 500;
-	opacity: 0.39;
-	margin-bottom: 70px;
-	position: relative;
-	top: 80px;
-	opacity: 0;
-}
-
-.hero-item .site-btn {
-	position: relative;
-	top: 50px;
-	opacity: 0;
+	opacity: 0.70;
 }
 
 .hero-slider .owl-item.active .hero-item h2,

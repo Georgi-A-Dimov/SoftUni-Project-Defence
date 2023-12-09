@@ -10,8 +10,11 @@ function InfoSection() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div className='hero-item'>
+            <h1>First slide label</h1>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <a href="#" className="site-btn">Read More  <img src="/img/icons/double-arrow.png" alt="#" /></a>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -21,8 +24,11 @@ function InfoSection() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div className='hero-item'>
+            <h1>First slide label</h1>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <a href="#" className="site-btn">Read More  <img src="/img/icons/double-arrow.png" alt="#" /></a>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,10 +38,11 @@ function InfoSection() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <div className='hero-item'>
+            <h1>First slide label</h1>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <a href="#" className="site-btn">Read More  <img src="/img/icons/double-arrow.png" alt="#" /></a>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

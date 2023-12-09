@@ -15,15 +15,9 @@ export default function Header() {
                         </div>
                         {/* <!-- Menu --> */}
                         <ul className="main-menu primary-menu">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="games.html">Games</a>
-                                <ul className="sub-menu">
-                                    <li><a href="game-single.html">Game Singel</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="review.html">Reviews</a></li>
-                            <li><a href="blog.html">News</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="review.html">All Posts</a></li>
+                            <li><a href="/create-post">Create Blog Post</a></li>
                         </ul>
                     </nav>
                 </div>

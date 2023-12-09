@@ -1,7 +1,7 @@
 export default function Login() {
     return (
         <div className="container">
-            <div className="login-box animated fadeInUp">
+            <div className="box animated fadeInUp">
                 <div className="box-header">
                     <h2>Log In</h2>
                 </div>

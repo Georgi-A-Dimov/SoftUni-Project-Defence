@@ -1,7 +1,7 @@
 export default function Register() {
     return (
         <div className="container">
-            <div className="register-box animated fadeInUp">
+            <div className="box animated fadeInUp">
                 <div className="box-header">
                     <h2>Register</h2>
                 </div>
@@ -12,6 +12,10 @@ export default function Register() {
                 <label htmlFor="password">Password</label>
                 <br />
                 <input type="password" id="password" name="password" />
+                <br />
+                <label htmlFor="re-password">Confirm Password</label>
+                <br />
+                <input type="password" id="confirmPassword" name="confirmPassword" />
                 <br />
                 <button type="submit">Sign Up</button>
                 <br />
